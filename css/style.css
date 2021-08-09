@@ -1,0 +1,271 @@
+/*common start*/
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #999999;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+/*common end*/
+
+
+
+/*header start*/
+/*header{
+	padding: 10px 0;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 9;
+	
+}*/
+.c_nav{
+	padding: 15px 0;
+
+	background-color: #02070c91;
+}
+.logo{}
+.btn_menu:focus{
+	box-shadow: none;
+}
+.menu{}
+.menu ul{
+	align-items: flex-end;
+}
+.menu ul li{
+}
+.menu ul li a{
+	font-size: 16px;
+	font-weight: 600;
+	color: #ffffff !important;
+	padding: 0 1px !important;
+	margin: 0 9px;
+	border-bottom: 2px solid transparent; !important;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover {
+	border-bottom: 2px solid #008ed6 !important;
+}
+/*header end*/
+
+/*intro start*/
+.introduction{
+	padding-top: 80px;
+	background-image: url(../images/home_bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	z-index: ;
+}
+.i_text{
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+.c_h3{
+	font-family: ;
+	font-size: 14px;
+	font-weight: 700;
+	color: #008ed6;
+	margin-bottom: 15px;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+}
+.c_h1{
+	font-family: ;
+	font-size: 46px;
+	font-weight: 600;
+	color: #ffffff;
+	margin-bottom: 25px;
+	line-height: 50px;
+}
+.c_p{
+	font-family: ;
+	font-size: 17px;
+	font-weight: 400;
+	color: #999999;
+	margin-bottom: 44px;
+}
+.btn_custom{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	margin-right: 5px;
+	text-transform: uppercase;
+	color: white;
+	border: 1px solid #999999;
+	border-radius: 3px;
+}
+.btn_custom:hover {
+	color: white;
+	background-color: #008ed6;
+}
+.btn_custom:focus{
+	box-shadow: none;
+}
+.i_img_wrapper{
+	position: relative;
+	max-width: 400px;
+	margin: 0 auto;
+}
+.i_img{
+	position: absolute;
+	bottom: 0;
+}
+/*intro end*/
+
+/*feature start*/
+.features{
+	padding: 50px 0 25px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.c_h3_2{
+	font-size: 16px;
+	font-weight: 700;
+	color: #008ed6;
+	margin-bottom: 5px;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+}
+.c_h1_2{
+	font-size: 32px;
+	font-weight: 600;
+	color: #1a1a1a;
+	margin-bottom: 20px;
+	line-height: 45px;
+}
+.v_bar{
+	width: 50px;
+	height: 2px;
+	background-color: #008ed6;
+	display: inline-block;
+	margin-bottom: 35px;
+}
+.s_feature{
+	margin-bottom: 40px;
+}
+.s_f_icon{
+	width: 70px;
+	height: 70px;
+	border: 1px solid #e5e5e5;
+	border-radius: 50%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 25px;
+
+}
+.s_f_icon i{
+	font-size: 30px;
+	color: #008ed6;
+}
+.s_feature h2{
+	font-size: 24px;
+	color: #1a1a1a;
+	margin-bottom: 15px;
+}
+.s_feature p{
+
+}
+
+/*feature end*/
+/*about start*/
+.about{
+	padding: 50px 0 25px;
+}
+.about_image {
+    max-width: 350px;
+    margin: 0 auto;
+}
+.about_content{}
+.about_text{
+	margin-bottom: 30px;
+}
+.about_text p{}
+.about_list{}
+.about_list ul li i{
+	font-size: ;
+	color: #008ed6;
+	margin-right: 5px;
+}
+.about_list ul li span{
+	color: #1a1a1a;
+}
+/*about end*/
+
+/*testimonials start*/
+.testimonials{
+	padding: 50px 0 65px;
+	background-image: url(../images/t_bg_image.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.t_tile{}
+.t_tile h1{
+	font-size: 32px;
+	font-weight: 600;
+	color: #ffffff;
+	margin-bottom: 20px;
+	line-height: 45px;
+}
+.slider{
+	margin: 20px 0 80px;
+}
+.slider_1{}
+.cid{
+	bottom: -130px;
+}
+.cid [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.t_content{}
+.t_content p{
+	font-size: 18px;
+	color: #ffffff;
+	margin-bottom: 25px;
+}
+.t_img{}
+.t_img img{}
+.t_profile{}
+.t_profile h5{
+	font-weight: 400;
+	font-size: 16px;
+	color: #ffffff;
+}
+.t_profile p{
+	font-weight: 700;
+	font-size: 14px;
+	color: #ffffff;
+}
+
+
+
+/*testimonials end*/
+
+/*footer start*/
+footer{
+	padding: 40px 0;
+	background-color: #15141a;
+}
+.footer_links ul li a{}
+.footer_links ul li a:hover i{
+	color: #008ed6;
+}
+.footer_links ul li a i{
+	color: #444348;
+	font-size: 14px;
+}
+.footer_item p{
+	color: #444348;
+	margin: 0;
+	font-size: 14px;
+	font-weight: 600;
+}
+/*footer end*/
+
